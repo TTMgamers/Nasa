@@ -18,6 +18,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
+  'https://rest-api-nasabot.herokuapp.com/api': 'Nasabot'
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
