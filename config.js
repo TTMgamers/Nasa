@@ -5,6 +5,7 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna pre
 global.player = ['6285240389682','6285705973694']
 global.APIs = { // API Prefix
   // nama: 'https://website'
+  Nasabot: 'https://rest-api-nasabot.herokuapp.com'
   bx: 'https://bx-hunter.herokuapp.com',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
@@ -18,7 +19,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://rest-api-nasabot.herokuapp.com/api': 'Nasabot'
+  'https://rest-api-nasabot.herokuapp.com': 'Nasabot'
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
