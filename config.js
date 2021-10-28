@@ -1,8 +1,8 @@
 let fs = require('fs')
-global.owner = ['083829386551','6285240389682','6285705973694'] // Letakan nomor kamu disini
+global.owner = ['62822648654777'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
-global.player = ['6285240389682','6285705973694']
+global.player = ['62822648654777']
 global.APIs = { // API Prefix
   // nama: 'https://website'
   Nasabot: 'https://rest-api-nasabot.herokuapp.com'
@@ -19,7 +19,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://rest-api-nasabot.herokuapp.com': 'Nasabot'
+  ' https://rest-api-nasabot.herokuapp.com': 'Nasabot'
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
@@ -30,8 +30,8 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'KOMOSUHAI BOT️'
-global.author = 'Asaa Tamvan'
+global.packname = 'NASA BOT️'
+global.author = 'Keyla Cans'
 
 global.wait = '_*tunggu..*_'
 
